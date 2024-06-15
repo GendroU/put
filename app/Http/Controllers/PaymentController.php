@@ -151,7 +151,7 @@ class PaymentController extends Controller
                     'currency' => 'eur',
                     'unit_amount' => 500,
                     'product_data' => [
-                        'name' => 'Tups ',
+                        'name' => 'tobi ',
                     ],
                 ],
                 'quantity' => $id_1_quantity,
@@ -162,7 +162,7 @@ class PaymentController extends Controller
                     'currency' => 'eur',
                     'unit_amount' => 500,
                     'product_data' => [
-                        'name' => 'Tups',
+                        'name' => 'tobi',
                     ],
                 ],
                 'quantity' => $id_2_quantity,
@@ -173,7 +173,7 @@ class PaymentController extends Controller
                     'currency' => 'eur',
                     'unit_amount' => 500,
                     'product_data' => [
-                        'name' => 'Tups',
+                        'name' => 'tobi',
                     ],
                 ],
                 'quantity' => $id_3_quantity,
@@ -184,7 +184,7 @@ class PaymentController extends Controller
                     'currency' => 'eur',
                     'unit_amount' => 500,
                     'product_data' => [
-                        'name' => 'Tups',
+                        'name' => 'tobi',
                     ],
                 ],
                 'quantity' => $id_4_quantity,
@@ -195,7 +195,7 @@ class PaymentController extends Controller
                     'currency' => 'eur',
                     'unit_amount' => 500,
                     'product_data' => [
-                        'name' => 'Tups',
+                        'name' => 'tobi',
                     ],
                 ],
                 'quantity' => $id_5_quantity,
@@ -206,7 +206,7 @@ class PaymentController extends Controller
                     'currency' => 'eur',
                     'unit_amount' => 500,
                     'product_data' => [
-                        'name' => 'Tups',
+                        'name' => 'tobi',
                     ],
                 ],
                 'quantity' => $id_6_quantity,
@@ -217,7 +217,7 @@ class PaymentController extends Controller
                     'currency' => 'eur',
                     'unit_amount' => 500,
                     'product_data' => [
-                        'name' => 'Tups',
+                        'name' => 'tobi',
                     ],
                 ],
                 'quantity' => $id_7_quantity,
@@ -228,7 +228,7 @@ class PaymentController extends Controller
                     'currency' => 'eur',
                     'unit_amount' => 500,
                     'product_data' => [
-                        'name' => 'Tups',
+                        'name' => 'tobi',
                     ],
                 ],
                 'quantity' => $id_8_quantity,
@@ -239,7 +239,7 @@ class PaymentController extends Controller
                     'currency' => 'eur',
                     'unit_amount' => 500,
                     'product_data' => [
-                        'name' => 'Tups',
+                        'name' => 'tobi',
                     ],
                 ],
                 'quantity' => $id_9_quantity,
