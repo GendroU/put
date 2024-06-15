@@ -30,7 +30,7 @@ class StripeController extends Controller
                         ],
                         'unit_amount'  => 500,
                     ],
-                    'quantity'   => 1,
+                    'quantity'   => 0,
                 ],
             ],
             'mode'        => 'payment',

@@ -22,13 +22,6 @@ class ItemController extends Controller
             'description' => 'required|string',
             'price' => 'required|string',
             'round_desc' => 'required|string',
-            'caliber' => 'required|string',
-            'mass' => 'required|string',
-            'explosive_type' => 'required|string',
-            'explosive_mass' => 'required|string',
-            'tnt' => 'required|string',
-            'fuze' => 'required|string',
-            'pen' => 'required|string',
         ]);
 
         $item = new Item([
@@ -36,13 +29,6 @@ class ItemController extends Controller
             'description' => $validatedData['description'],
             'price' => $validatedData['price'],
             'round_desc' => $validatedData['round_desc'],
-            'caliber' => $validatedData['caliber'],
-            'mass' => $validatedData['mass'],
-            'explosive_type' => $validatedData['explosive_type'],
-            'explosive_mass' => $validatedData['explosive_mass'],
-            'tnt' => $validatedData['tnt'],
-            'fuze' => $validatedData['fuze'],
-            'pen' => $validatedData['pen'],
         ]);
 
         $item->save();

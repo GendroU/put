@@ -248,7 +248,7 @@ class PaymentController extends Controller
 
         $lineItems = [];
         foreach ($products as $product) {
-            if($product['quantity'] > 1) {
+            if($product['quantity'] > 0) {
                 $lineItems[] = [
                     'price_data' => $product['price_data'],
                     'quantity' => $product['quantity'],
