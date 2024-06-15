@@ -46,7 +46,6 @@ Route::delete('/dashboard/{cart}/delete', [CartController::class, 'itemDestroy']
 Route::post('/dashboard/{cart}/edit', [CartController::class, 'itemEdit'])->name('cart.edit');
 
 Route::post('/payment/pay', [PaymentController::class, 'pay'])->name('payment.store');
-Route::post('/payment/pay', 'App\Http\Controllers\StripeController@checkout')->name('payment.store');
 
 Route::get('/success', 'App\Http\Controllers\StripeController@success')->name('success');
 
